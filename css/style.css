@@ -130,13 +130,53 @@ img {
 
  /* versione tablet */
 
- @media screen and (min-whidt: 760px) {
+ @media screen and (max-width: 768px) {
 
-    body{
+    .container{
         width: 100%;
+    }
 
+    .col{
+        width: 100%;
+    }
+
+    .row{
+        width: 100%;
+    }
+
+    .card{
+        width: 100%;
     }
 
  }
+
+ /* versione mobile */
+
+ @media screen and (max-width: 480px) {
+
+    .container{
+        width: 100%;
+    }
+
+    .col{
+        width: 100%;
+    }
+
+    .row{
+        width: 100%;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+ }
+
     
  
