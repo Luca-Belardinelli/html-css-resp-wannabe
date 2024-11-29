@@ -147,7 +147,17 @@ img {
         align-items: center;
     }
 
- }
+    .container{
+        padding: 0;
+    }
+
+   img{
 
     
- 
+        
+    }
+
+    
+}
+
+
