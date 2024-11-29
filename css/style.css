@@ -130,3 +130,13 @@ img {
 
  /* versione tablet */
 
+ @media screen and (min-whidt: 760px) {
+
+    body{
+        width: 100%;
+
+    }
+
+ }
+    
+ 
