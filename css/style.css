@@ -135,40 +135,11 @@ img {
     .container{
         width: 100%;
     }
-
-    .col{
-        width: 100%;
-    }
-
-    .row{
-        width: 100%;
-    }
-
-    .card{
-        width: 100%;
-    }
-
  }
 
  /* versione mobile */
 
  @media screen and (max-width: 480px) {
-
-    .container{
-        width: 100%;
-    }
-
-    .col{
-        width: 100%;
-    }
-
-    .row{
-        width: 100%;
-    }
-
-    .card{
-        width: 100%;
-    }
 
     .row{
         display: flex;
