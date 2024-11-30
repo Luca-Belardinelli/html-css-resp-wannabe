@@ -141,34 +141,57 @@ img {
 
  @media screen and (max-width: 480px) {
 
+
     .container{
         padding: 0;
         width: 100%;
     }
 
+
     .row{
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 70px;
 
-    }
+    }    
     
     .lessons .col{
         width: 70%;
+        padding-bottom: 50px;
     }
 
     .steps .col{
         width: 70%;
     }
 
-    .why-us .col-left{
+     .why-us .col-left{
         width: 70%;
     }
 
     .why-us .col-right{
         width: 70%;
+        padding-top: 25px; ;
+    } 
+
+    .why-us{
+        background-color: #202020;
+        padding-bottom: 60px;
+        padding-top: 40px;
+        margin-bottom: 0rem;
+        
+    }
+
+
+    .steps{
+        margin: 0rem 0;
+    }
+
+
+    .col{
+        padding-bottom: 40px;
     }
 
 
 
+ }
+   
